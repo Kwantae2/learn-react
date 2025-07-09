@@ -2,16 +2,15 @@
   display: flex;
 } */
 
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
   width: 300px;
 }
 
 img {
   width: 100%;
-}
-
-.melong {
-  border: 2px solid skyblue; /* 2픽셀 두께의 검정색 실선 테두리 */
-  padding: 8px 15px; /*텍스트와 테두리 사이의 안쪽 여백 (위아래 8px, 좌우 15px)*/
-  display: inline-block;
 }
